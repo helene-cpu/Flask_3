@@ -27,6 +27,9 @@ def idk():
 def hva():
     return 'hva : Jeg vet ikke egt enda en gang'
 
+@app.route('/navn')
+def navn():
+    return 'navn : Jeg heter Helene btw'
 
 if __name__ == "__main__":
     app.run()
