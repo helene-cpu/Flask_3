@@ -19,6 +19,9 @@ def index():
 def info():
     return 'info : Jeg vet ikke egt'
 
+@app.route('/idk')
+def idk():
+    return 'idk : Jeg vet ikke egt igjen'
 
 
 if __name__ == "__main__":
