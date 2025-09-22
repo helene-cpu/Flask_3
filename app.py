@@ -23,6 +23,10 @@ def info():
 def idk():
     return 'idk : Jeg vet ikke egt igjen'
 
+@app.route('/hva')
+def hva():
+    return 'hva : Jeg vet ikke egt enda en gang'
+
 
 if __name__ == "__main__":
     app.run()
